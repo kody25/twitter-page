@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+.main-head {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    
+}
+.grid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr;
+    grid-template-rows: auto;
+
+
+}
+
+
+.first {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+.buttons button {
+    background: transparent;
+    color: white;
+    border: none;
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    align-self: flex-start;
+}
+
+#home-icon,#explore-icon,#notification-icon,#message-icon,#bookmark-icon,#list-icon,#profile-icon,#more-icon {
+    margin: 0.5em;
+}
+
+.button-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+#main-logo, #tweet-btn{
+    /* margin-top: 0.5em; */
+    margin-left: 1.5em;
+    align-self: flex-start;
+    margin-bottom: 1em;
+
+}
+#tweet-btn {
+    padding: 1em 5em;
+    background: #60A5FA;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    border-radius: 2em;
+}
+
+
+.profile-name {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    position: fixed;
+    bottom: 2em;
+    margin-left: 1em;
+}
+
+#avatar {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    /* margin: 0.5em; */
+
+}
+
+.name {
+    margin: 0.5em;
+}
+#avatar-name, #avatar-username {
+    color: white;
+}
+
+#avatar-more {
+    margin-top: 0.5em;
+}
