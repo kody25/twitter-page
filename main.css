@@ -16,6 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr 1.5fr;
     grid-template-rows: auto;
+    /* column-gap: 1 px; */
 
 
 }
@@ -28,21 +29,24 @@
     flex-direction: column;
     /* align-items: center; */
     text-align: left;
-    margin-left: 2em;
-    margin-top: 2em;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+    border-right: 0.5px solid grey;
 }
 .buttons button {
     background: transparent;
+    
     color: white;
     border: none;
     text-align: left;
-    margin-left: 1em;
-    margin-bottom: 1em;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     align-self: flex-start;
 }
 
 #home-icon,#explore-icon,#notification-icon,#message-icon,#bookmark-icon,#list-icon,#profile-icon,#more-icon {
-    margin: 0.5em;
+    margin: 0.5rem;
 }
 
 .button-flex {
@@ -55,17 +59,17 @@
 
 #main-logo, #tweet-btn{
     /* margin-top: 0.5em; */
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
     align-self: flex-start;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 
 }
 #tweet-btn {
-    padding: 1em 5em;
+    padding: 1rem 5rem;
     background: #60A5FA;
-    margin-left: 1.5em;
-    margin-top: 1em;
-    border-radius: 2em;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
 }
 
 
@@ -74,25 +78,25 @@
     align-items: flex-start;
     flex-direction: row;
     position: fixed;
-    bottom: 2em;
-    margin-left: 1em;
+    bottom: 2rem;
+    margin-left: 1rem;
 }
 
 #avatar {
-    height: 3em;
-    width: 3em;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     /* margin: 0.5em; */
 
 }
 
 .name {
-    margin: 0.5em;
+    margin: 0.5rem;
 }
 #avatar-name, #avatar-username {
     color: white;
 }
 
 #avatar-more {
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
 }
